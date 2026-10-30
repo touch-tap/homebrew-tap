@@ -1,27 +1,27 @@
 class Ccn < Formula
   desc "Phone notifications and approvals for Claude Code, from any terminal"
   homepage "https://claudecodenotifier.com/cli"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.2.0/ccn-aarch64-apple-darwin.tar.gz"
-      sha256 "2192e029932bc23c806e8df0ef6e8245c845fb290a2192e5bd30502ef6582539"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.3.0/ccn-aarch64-apple-darwin.tar.gz"
+      sha256 "ab912d6adef1deddad79d5407850f76ee02b42aa8e26ae822cbb11081b501507"
     end
     on_intel do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.2.0/ccn-x86_64-apple-darwin.tar.gz"
-      sha256 "745466ba8adf1fd3000a227dbda97aec52fe03ff03869f464fd26c4f0fd5de06"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.3.0/ccn-x86_64-apple-darwin.tar.gz"
+      sha256 "682822857fd74c970f81715450c3a8cef12e2b251b4fde5b74a9a640c4eba6ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.2.0/ccn-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "bbcb8fa960ade124edb2c5385e201068d5173a81921e9da837e3095d2fc5ea42"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.3.0/ccn-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "976124a41c95ca712cee197dd9b5a2791eac020cf854c9f7fafbc9e999e75579"
     end
     on_intel do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.2.0/ccn-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "66f20efac3a6c883bf732b1c4eb0c907d858d10cc436bcaad0a1639d34180dec"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.3.0/ccn-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d6d04a12e44eacb319ecfb50d39570134c0ef2b6fd0bdf3bf2250c062bbbd0be"
     end
   end
 
@@ -31,9 +31,8 @@ class Ccn < Formula
 
   def caveats
     <<~EOS
-      Connect your phone: run
-        ccn
-      and scan the QR code with the phone's camera, or run
+      Run `ccn` to finish setting up: it installs the Claude Code hooks (desktop
+      notifications from then on) and shows a QR code to pair your phone, or run
         ccn pair <the code on your phone>
     EOS
   end
