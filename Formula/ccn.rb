@@ -1,27 +1,27 @@
 class Ccn < Formula
   desc "Phone notifications and approvals for Claude Code, from any terminal"
   homepage "https://claudecodenotifier.com/cli"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.4.0/ccn-aarch64-apple-darwin.tar.gz"
-      sha256 "c6a137e759770ce44579d3533bccd079584489c7c413752851317e601b5a8e02"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.4.1/ccn-aarch64-apple-darwin.tar.gz"
+      sha256 "9923fb296b4a53dddbe4fdf192de3f011ede8fdd15933ce3f9b91b4d714a47ef"
     end
     on_intel do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.4.0/ccn-x86_64-apple-darwin.tar.gz"
-      sha256 "fac35442cf4d0648e5e47cd5b2ed9566e7ad1ae3b33e24cc94d8122707b35f4a"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.4.1/ccn-x86_64-apple-darwin.tar.gz"
+      sha256 "a976322d37a7a67cd583d9171ac363643b67be55c7cdbc109c7b1ff2f877928d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.4.0/ccn-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4a07c99551541b4cdba5fc4f6c4f93152739f1883e1c351faf1beaa2c7acf536"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.4.1/ccn-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "75aea6463cac575c6b8a6a2294d67ce2002333f1cc0c8d461251291c89b111b0"
     end
     on_intel do
-      url "https://github.com/touch-tap/ccn/releases/download/v0.4.0/ccn-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "30479ceb4e6e406c8c54c87a58309402b74969d40f064433ac96b5dcbad10d53"
+      url "https://github.com/touch-tap/ccn/releases/download/v0.4.1/ccn-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b7991b2a6df1c62ee26b9b163f74960267c0a1fc584377051a13b73fb03ebe56"
     end
   end
 
