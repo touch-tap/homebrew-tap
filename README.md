@@ -1,27 +1,13 @@
 # TouchTap Homebrew Tap
 
-Homebrew formulae and casks for TouchTap apps.
+Homebrew formulae for TouchTap tools.
 
-## Installation
+## ccn
 
-```bash
-brew tap touch-tap/tap
-```
-
-## Available Casks
-
-### Claude Code Notifier
-
-Menu bar notifications for Claude Code sessions.
+Phone notifications and approvals for Claude Code, from any terminal on macOS or Linux.
 
 ```bash
-brew install touch-tap/tap/claude-code-notifier
+brew install touch-tap/tap/ccn
 ```
 
-Or in one command:
-
-```bash
-brew install touch-tap/tap/claude-code-notifier
-```
-
-For more information, visit [claudecodenotifier.com](https://claudecodenotifier.com).
+Then pair your phone with `ccn pair CODE`. For every install option, see [claudecodenotifier.com/cli](https://claudecodenotifier.com/cli).
