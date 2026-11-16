@@ -1,27 +1,27 @@
 class CodexNotifier < Formula
   desc "Phone notifications and approvals for OpenAI Codex, from any terminal"
   homepage "https://notifierforcodex.com/cli"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-aarch64-apple-darwin.tar.gz"
-      sha256 "6c459b9021045bd08b809bb08a696bb5c676ee3d13e2846b97610bc245ca72fa"
+      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.2/codex-notifier-aarch64-apple-darwin.tar.gz"
+      sha256 "d4a845923c4af6b43269a96fb105b7ef4350783acfcd580665d6433a1479b9f7"
     end
     on_intel do
-      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-x86_64-apple-darwin.tar.gz"
-      sha256 "bcc2b744fa1722ad270594030a22165ef7e9e2e7aa0b1cf3566f95569974a3b7"
+      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.2/codex-notifier-x86_64-apple-darwin.tar.gz"
+      sha256 "dcbee005f6b939fb6faff971628c11708c3e91a8f7b353099270b67344431399"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "960a1061eb4264da8df9afc97c7dda9a5334d1301c11f45e771127f3428397ed"
+      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.2/codex-notifier-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "06eb375b0b47e4be7f811931df6929188d68c7eff1f4ad5af9e5b760670b3f1f"
     end
     on_intel do
-      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1cf19b206a22eee6e09a0cd906192450b52a9ab8bf206a735c03dfe83184eaf0"
+      url "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.2/codex-notifier-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ee0b1e5ef005e8baf6539c9ae370e9675eeb18c502038679faa7a34e322952ae"
     end
   end
 
