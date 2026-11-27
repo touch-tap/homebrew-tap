@@ -1,27 +1,27 @@
 class AntigravityNotifier < Formula
   desc "Phone notifications and approvals for Google Antigravity, from any terminal"
   homepage "https://antigravitynotifier.com/cli"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-aarch64-apple-darwin.tar.gz"
-      sha256 "2280448907c9b65c7a05ba71e80062b2ac2b74871d790f9d5ddffc4cc9819293"
+      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-aarch64-apple-darwin.tar.gz"
+      sha256 "726275baa7fab31a50b7ea4610d51853d209619b71fe8dc2221e30f061e078d0"
     end
     on_intel do
-      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-x86_64-apple-darwin.tar.gz"
-      sha256 "12eed04d7715a8b721aa7f585bc93f21c96a799559d064076ca6dad1e907cbd5"
+      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-x86_64-apple-darwin.tar.gz"
+      sha256 "563619d83069ddb8aea3f24059cb3ffd6d2e973be1105d2d8c81af4823648619"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "cc5c9c0524cca5c80b638ac3ac7ad660a88607daccb1ddea02186a0a28647adb"
+      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "93823f3cb3ea045e623310cff6ffd7ab501072c0ec8267adfde99239d4fff162"
     end
     on_intel do
-      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "eaf295a581c0b8e3c8fd10d3b7cef02b3ac8f8ee401ac1f453fc75718ba322d1"
+      url "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2f2d3108204f0642330641d1912604d55c448053f803b6a0d242fccdab4deb0a"
     end
   end
 
